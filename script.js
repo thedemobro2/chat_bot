@@ -2,7 +2,7 @@ const chatHistory = document.getElementById('chat-history');
 const messageInput = document.getElementById('message-input');
 const sendButton = document.getElementById('send-button');
 
-let apiKey = 'AIzaSyCW0FrQ3WQ4cZc6_MRoWvBYR_IfEgwwpz8'; 
+let apiKey = 'AIzaSyCgximQPBVotwv3f23TJXxsHZ8U6ARS5XE'; 
 const model = 'gemini-1.5-flash'; 
 
 sendButton.addEventListener('click', sendMessage);
