@@ -2,8 +2,6 @@ const chatHistory = document.getElementById('chat-history');
 const messageInput = document.getElementById('message-input');
 const sendButton = document.getElementById('send-button');
 
-// NOTE: THIS IS NOT A RECOMMENDED WAY TO HANDLE API KEYS FOR SECURITY REASONS!
-// Replace with a secure way of storing and using the API key 
 let apiKey = 'AIzaSyCW0FrQ3WQ4cZc6_MRoWvBYR_IfEgwwpz8'; 
 const model = 'gemini-1.5-flash'; 
 
